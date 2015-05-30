@@ -9,6 +9,7 @@
   "author": "Jani Luukko <jjluukko@cs.helsinki.fi>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "mocha": "^2.2.5"
   }
 }
