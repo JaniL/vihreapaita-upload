@@ -1,0 +1,24 @@
+{
+  "name": "vihreapaita-upload",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Jani Luukko <jj.luukko@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
