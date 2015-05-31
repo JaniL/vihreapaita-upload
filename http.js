@@ -12,6 +12,8 @@ module.exports = function(app) {
       }
     }
 
+    var multer = require('multer');
+
     app.use(multer({
       dest: './uploads/',
       rename: function (fieldname, filename) {
@@ -24,8 +26,9 @@ module.exports = function(app) {
 
     app.get('/', function(req, res) {
       // res.send("Moi!");
-      res.sendFile("form.htm");
       emitListeners("derp");
+      res.sendFile('form.htm', { root: __dirname });
+
     });
 
     app.post('/upload', function(req, res) {
